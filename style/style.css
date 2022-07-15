@@ -2,15 +2,14 @@
     margin: 0;
     padding: 0;
 }
-.section-size{
-    width: 100%;
-    height: 600px;
-}
 .section-1{
     display: flex;
     background-image: url('https://www.bproperty.com/blog/wp-content/uploads/image_2020_07_20T07_24_36_045Z.png');
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 100px;
     
 }
 .text{
@@ -21,7 +20,7 @@
     position: absolute;
    
 }
-.text-fild{
+.text-item{
     width: 70%;
     padding-left: 15%;
     padding-right: 15%;
@@ -46,8 +45,14 @@ p{
     margin-left: 15%;
     transform: 0.5s ;
 }
-.link-btn:hover{
+.section-1 .link-btn:hover{
     background:rgba(24, 6, 6, 0.39); 
+    color: tomato;
+    border: 2px solid tomato;
+    border-radius: 5px;
+}
+.link-btn:hover{
+    background:white; 
     color: tomato;
     border: 2px solid tomato;
     border-radius: 5px;
@@ -61,11 +66,12 @@ p{
 
 .section-2{
     display: flex;
-    margin-top: 150px;
+    width: 100%;
+    height: 500px;
 }
 .text-1{
     width: 50%;
-    height: 600px;; 
+    height: 500px;; 
     color: black;
     position: absolute;
     margin-top: -150px;
@@ -74,9 +80,71 @@ p{
     
     margin-left:50%;
     width: 50%;
-    height: 600px;
+    height: 500px;
 }
 .section-3{
     display: flex;
-    margin-top: -50px;
+    width: 100%;
+    height: 500px;
+}
+.img{
+    width: 50%;
+    height: 500px;   
+}
+img{
+    padding-left: 10%;
+    padding-right:10% ;
+    width: 80%;
+    height: 315px;
+    border-radius: 5px;
+}
+.text-2{
+    width: 50%;
+    height: 500px;
+    margin-top: -150px;
+}
+.section-4{
+    width: 100%;
+    height: 500px;
+    display: block;
+    margin-top: -150px;
+}
+.text-ariea{
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+.box{
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: block;
+}
+.row{
+    display: flex;
+}
+.card{
+    width: 461px;
+    height: 225px;
+    background: pink;
+    margin: 10px;
+    border-radius: 5px;
+}
+.card-item{
+    display: flex;
+    padding: 20px 25px 20px 0px;
+}
+.card img{
+    height: 56px;
+    width: 56px;
+    display: inline-block;
+}
+.card-text h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+.card-text p{
+    font-size: 18px;
+    font-weight: 300;
 }
